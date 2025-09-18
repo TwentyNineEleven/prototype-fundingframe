@@ -1,20 +1,16 @@
 {
-  "name": "react",
+  "name": "fundingframe-prototype",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.tsx",
+  "description": "A grant management platform prototype for nonprofit organizations",
+  "keywords": ["grant", "nonprofit", "funding", "management", "react"],
+  "main": "src/index.js",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.0",
-    "lucide-react": "0.544.0"
+    "react-scripts": "^5.0.0"
   },
   "devDependencies": {
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
-    "loader-utils": "3.2.1",
-    "typescript": "5.7.2"
+    "loader-utils": "3.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
