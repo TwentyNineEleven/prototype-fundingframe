@@ -2,12 +2,19 @@
   "name": "fundingframe-prototype",
   "version": "1.0.0",
   "description": "A grant management platform prototype for nonprofit organizations",
-  "keywords": ["grant", "nonprofit", "funding", "management", "react"],
+  "keywords": [
+    "grant",
+    "nonprofit",
+    "funding",
+    "management",
+    "react"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.0"
+    "react-scripts": "^5.0.0",
+    "safe-regex-test": "^1.1.0"
   },
   "devDependencies": {
     "loader-utils": "3.2.1"

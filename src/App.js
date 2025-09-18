@@ -327,6 +327,42 @@ const mockRFPs = [
   },
   {
     id: 5,
+    title: "DC Community Wellness Initiative",
+    funder: "DC Department of Health",
+    deadline: "2025-01-30",
+    amount: "$45,000",
+    status: "new",
+    fitScore: 88,
+    type: "local",
+    dateAdded: "2024-09-18",
+    description: "Local funding for community-based health and wellness programs in Ward 7 and Ward 8.",
+  },
+  {
+    id: 6,
+    title: "Ward 7 & 8 Community Development Grant",
+    funder: "DC Mayor's Office",
+    deadline: "2025-02-15",
+    amount: "$75,000",
+    status: "analyzing",
+    fitScore: 85,
+    type: "local",
+    dateAdded: "2024-09-12",
+    description: "Supporting community development and capacity building in underserved DC neighborhoods.",
+  },
+  {
+    id: 7,
+    title: "Capital Area Community Foundation Grant",
+    funder: "Community Foundation for the National Capital Region",
+    deadline: "2025-03-01",
+    amount: "$35,000",
+    status: "new",
+    fitScore: 82,
+    type: "local",
+    dateAdded: "2024-09-08",
+    description: "Local foundation grants for nonprofits serving DC metropolitan area communities.",
+  },
+  {
+    id: 8,
     title: "Behavioral Health Workforce Development",
     funder: "HRSA",
     deadline: "2024-11-30",
@@ -723,6 +759,46 @@ The Ward 7 and Ward 8 communities, where ALMSDC operates, have substance use dis
 
 Without immediate expansion of peer recovery specialist capacity, over ${generateRandomMetric(1000, 1500)} individuals seeking recovery support will remain underserved annually. ALMSDC's proven training model and deep community connections position us uniquely to address this critical gap in behavioral health infrastructure. ${getRandomCitation()}`,
 
+    'statement-of-need': `The substance use disorder crisis in Washington, DC's Ward 7 and Ward 8 communities represents a critical public health emergency requiring immediate intervention. Current data indicates that ${generateRandomMetric(45, 60)}% of residents in these areas have been directly affected by substance use disorders, either personally or through family members. ${getRandomCitation()}
+
+Existing recovery support infrastructure serves fewer than ${generateRandomMetric(25, 35)}% of individuals seeking services, creating a significant gap that perpetuates cycles of addiction, incarceration, and community instability. Traditional treatment models have proven insufficient in addressing the unique cultural, economic, and social barriers faced by residents in these predominantly African American communities. ${getRandomCitation()}
+
+The absence of adequate peer recovery support services has resulted in ${generateRandomMetric(70, 85)}% of individuals completing initial treatment programs relapsing within ${generateRandomMetric(6, 12)} months due to lack of ongoing community-based support. Evidence consistently demonstrates that peer recovery specialists with lived experience achieve ${generateRandomMetric(40, 60)}% better long-term recovery outcomes compared to traditional counseling alone. ${getRandomCitation()}
+
+ALMSDC has documented over ${generateRandomMetric(200, 300)} individuals currently on waiting lists for peer recovery services, with average wait times of ${generateRandomMetric(45, 90)} days. This delay in critical support services contributes to treatment dropout rates exceeding ${generateRandomMetric(50, 70)}% and increases the likelihood of emergency department visits, incarceration, and overdose incidents. ${getRandomCitation()}
+
+The proposed expansion directly addresses this documented need by increasing trained peer recovery specialist capacity by ${generateRandomMetric(150, 200)}%, reducing wait times to less than ${generateRandomMetric(5, 15)} days, and providing culturally responsive services that recognize the unique strengths and challenges of our target community. ${getRandomCitation()}`,
+
+    'capability-statement': `A Little More Support DC (ALMSDC) brings over ${generateRandomMetric(6, 10)} years of proven experience in peer recovery services and workforce development to the Washington, DC metropolitan area. Since our founding in ${2024 - generateRandomMetric(6, 10)}, we have successfully trained and certified ${generateRandomMetric(75, 120)} peer recovery specialists with an industry-leading ${generateRandomMetric(88, 95)}% job placement rate. ${getRandomCitation()}
+
+Our organizational infrastructure includes a ${generateRandomMetric(3500, 4500)}-square-foot facility at 1418 Good Hope Road Southeast, featuring dedicated training rooms, computer lab, library, and clinical supervision spaces. We maintain active partnerships with ${generateRandomMetric(20, 30)} community organizations, including ${generateRandomMetric(8, 12)} healthcare providers, ${generateRandomMetric(5, 8)} social service agencies, and ${generateRandomMetric(3, 6)} faith-based organizations. ${getRandomCitation()}
+
+ALMSDC's leadership team combines lived recovery experience with advanced academic credentials and professional certifications. Our Executive Director holds ${generateRandomMetric(8, 15)}+ years of recovery and an M.S.W. in Clinical Social Work, while our Training Director maintains dual certification as both a Certified Addiction Counselor and Certified Peer Recovery Specialist. ${getRandomCitation()}
+
+Our evidence-based training curriculum has been recognized by the DC Department of Health and incorporates trauma-informed care principles, motivational interviewing techniques, and culturally competent practice models specifically designed for African American communities. We maintain ${generateRandomMetric(95, 99)}% compliance with all regulatory requirements and have passed ${generateRandomMetric(15, 25)} independent quality assurance audits without major findings. ${getRandomCitation()}
+
+Financial management capabilities include experience managing federal grants totaling over $${generateRandomMetric(500, 800)},000 annually, with consistent clean audit findings and 100% compliance with federal reporting requirements. Our current annual operating budget of $${generateRandomMetric(650, 950)},000 demonstrates our capacity to manage multi-year, multi-component grant programs effectively. ${getRandomCitation()}
+
+ALMSDC maintains comprehensive data management systems capable of tracking participant demographics, training progress, certification outcomes, employment placement, and long-term recovery indicators. Our evaluation protocols exceed SAMHSA requirements and include both quantitative metrics and qualitative assessment tools validated for use with diverse populations. ${getRandomCitation()}`,
+
+    'organizational-structure': `A Little More Support DC operates under a well-defined organizational structure designed to ensure accountability, transparency, and effective program delivery. Our governance model consists of a ${generateRandomMetric(7, 12)}-member Board of Directors representing diverse backgrounds in behavioral health, community development, finance, and legal affairs. ${getRandomCitation()}
+
+The Board of Directors provides strategic oversight and fiduciary responsibility, meeting quarterly to review organizational performance, approve major policies, and ensure mission alignment. Board composition includes ${generateRandomMetric(3, 5)} community representatives with lived recovery experience, ${generateRandomMetric(2, 4)} healthcare professionals, and ${generateRandomMetric(2, 3)} individuals with expertise in nonprofit management and finance. ${getRandomCitation()}
+
+Executive leadership structure includes:
+• Executive Director: Overall organizational leadership, community relations, and strategic planning
+• Program Director: Direct oversight of all training and peer recovery programs
+• Clinical Supervisor: Licensed clinical oversight and quality assurance
+• Operations Manager: Financial management, human resources, and administrative functions
+• Training Coordinator: Curriculum development and instruction delivery
+• Community Outreach Coordinator: Participant recruitment and community engagement ${getRandomCitation()}
+
+For the proposed grant program, a dedicated Project Manager will be hired to coordinate day-to-day implementation activities, maintain funder reporting requirements, and ensure compliance with all grant conditions. This position will report directly to the Program Director and work collaboratively with the Clinical Supervisor to maintain program quality standards. ${getRandomCitation()}
+
+Staffing structure supports appropriate span of control with maximum instructor-to-participant ratios of 1:${generateRandomMetric(12, 18)} for classroom instruction and 1:${generateRandomMetric(6, 10)} for clinical supervision activities. All training staff maintain current certifications and participate in monthly professional development activities to ensure evidence-based practice delivery. ${getRandomCitation()}
+
+Quality assurance mechanisms include weekly supervision meetings, monthly leadership team reviews, quarterly Board reporting, and annual independent program evaluations. This multi-layered oversight structure ensures program fidelity, participant safety, and continuous improvement in service delivery. ${getRandomCitation()}`,
+
     'project-description': `The Peer Recovery Specialist Training Program Expansion will implement a comprehensive ${generateRandomMetric(4, 8)}-month training curriculum for ${generateRandomMetric(45, 60)} participants across ${generateRandomMetric(2, 4)} cohorts. Each cohort will receive ${generateRandomMetric(100, 150)} hours of training including trauma-informed care, motivational interviewing, ethics, crisis intervention, and cultural competency. ${getRandomCitation()}
 
 Participants will complete ${generateRandomMetric(40, 80)} hours of supervised practicum experiences with our case management team, serving real clients under licensed clinical supervision. Upon completion, graduates receive nationally recognized certification and comprehensive job placement assistance through our ${generateRandomMetric(15, 25)} community partner organizations. ${getRandomCitation()}
@@ -872,6 +948,30 @@ const generateMockProposal = (baseData) => {
         comments: generateRandomMetric(1, 4),
         version: `v1.${generateRandomMetric(1, 6)}`
       },
+      'statement-of-need': {
+        content: generateMockContent('statement-of-need'),
+        wordCount: generateRandomMetric(800, 1400),
+        citations: generateRandomMetric(5, 9),
+        lastUpdated: new Date(Date.now() - generateRandomMetric(1, 4) * 24 * 60 * 60 * 1000).toLocaleDateString(),
+        comments: generateRandomMetric(2, 5),
+        version: `v1.${generateRandomMetric(1, 7)}`
+      },
+      'capability-statement': {
+        content: generateMockContent('capability-statement'),
+        wordCount: generateRandomMetric(700, 1300),
+        citations: generateRandomMetric(4, 8),
+        lastUpdated: new Date(Date.now() - generateRandomMetric(1, 6) * 24 * 60 * 60 * 1000).toLocaleDateString(),
+        comments: generateRandomMetric(1, 3),
+        version: `v1.${generateRandomMetric(1, 5)}`
+      },
+      'organizational-structure': {
+        content: generateMockContent('organizational-structure'),
+        wordCount: generateRandomMetric(650, 1200),
+        citations: generateRandomMetric(4, 7),
+        lastUpdated: new Date(Date.now() - generateRandomMetric(1, 5) * 24 * 60 * 60 * 1000).toLocaleDateString(),
+        comments: generateRandomMetric(0, 2),
+        version: `v1.${generateRandomMetric(1, 4)}`
+      },
       'project-description': {
         content: generateMockContent('project-description'),
         wordCount: generateRandomMetric(800, 1500),
@@ -971,6 +1071,7 @@ const FundingFrameApp = () => {
     { id: "knowledge", label: "Knowledge Base", icon: "bookOpen" },
     { id: "documents", label: "Documents", icon: "fileText" },
     { id: "reports", label: "Reports", icon: "pieChart" },
+    { id: "help", label: "Help & Templates", icon: "bookOpen" },
     { id: "settings", label: "Settings", icon: "settings" },
   ];
 
@@ -1089,6 +1190,11 @@ const FundingFrameApp = () => {
           return [
             { label: "Dashboard", onClick: () => transitionToView("dashboard") },
             { label: "Settings", active: true }
+          ];
+        case "help":
+          return [
+            { label: "Dashboard", onClick: () => transitionToView("dashboard") },
+            { label: "Help & Templates", active: true }
           ];
         default:
           return [{ label: "Dashboard", active: true }];
@@ -2037,6 +2143,24 @@ const FundingFrameApp = () => {
         progress: 100,
       },
       {
+        id: "statement-of-need",
+        name: "Statement of Need",
+        status: "completed",
+        progress: 100,
+      },
+      {
+        id: "capability-statement",
+        name: "Organizational Capability",
+        status: "completed",
+        progress: 100,
+      },
+      {
+        id: "organizational-structure",
+        name: "Organizational Structure",
+        status: "completed",
+        progress: 100,
+      },
+      {
         id: "project-description",
         name: "Project Description",
         status: "in-progress",
@@ -2589,12 +2713,77 @@ const FundingFrameApp = () => {
                       fontSize: "16px",
                       lineHeight: "1.6",
                       color: "#374151",
+                      position: "relative"
                     }}
                   >
-                    <p style={{ fontStyle: "italic", color: "#9ca3af" }}>
-                      [This section is in progress. Use AI Assistant to generate
-                      content based on your organizational knowledge base...]
-                    </p>
+                    <div style={{
+                      marginBottom: "16px",
+                      display: "flex",
+                      gap: "8px",
+                      alignItems: "center",
+                      paddingBottom: "12px",
+                      borderBottom: "1px solid #e5e7eb"
+                    }}>
+                      <button
+                        onClick={() => {
+                          setCitationPanelOpen(true);
+                        }}
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "6px",
+                          padding: "6px 12px",
+                          border: "1px solid #d1d5db",
+                          borderRadius: "6px",
+                          backgroundColor: "white",
+                          color: "#374151",
+                          cursor: "pointer",
+                          fontSize: "13px",
+                          fontWeight: "500"
+                        }}
+                        title="Insert inline citation"
+                      >
+                        <Icon name="plus" size={14} />
+                        Add Citation
+                      </button>
+                      <button
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "6px",
+                          padding: "6px 12px",
+                          border: "1px solid #d1d5db",
+                          borderRadius: "6px",
+                          backgroundColor: "white",
+                          color: "#374151",
+                          cursor: "pointer",
+                          fontSize: "13px",
+                          fontWeight: "500"
+                        }}
+                        title="Format as APA citation"
+                      >
+                        <Icon name="fileText" size={14} />
+                        APA Format
+                      </button>
+                      <span style={{
+                        fontSize: "12px",
+                        color: "#6b7280",
+                        marginLeft: "auto"
+                      }}>
+                        Citation Style: APA 7th Edition
+                      </span>
+                    </div>
+
+                    <div style={{
+                      padding: "16px",
+                      backgroundColor: "#f9fafb",
+                      border: "1px solid #e5e7eb",
+                      borderRadius: "8px",
+                      whiteSpace: "pre-wrap",
+                      fontFamily: "inherit"
+                    }}>
+                      {generateMockContent(selectedSection)}
+                    </div>
                   </div>
                 </div>
               )}
@@ -3361,9 +3550,10 @@ const FundingFrameApp = () => {
             </h3>
             <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
               {[
-                { source: "Federal Grants", amount: "$245K", percentage: 50, color: "#2563eb" },
-                { source: "Foundation Grants", amount: "$150K", percentage: 31, color: "#059669" },
-                { source: "State Grants", amount: "$90K", percentage: 19, color: "#d97706" },
+                { source: "Federal Grants", amount: "$245K", percentage: 42, color: "#2563eb" },
+                { source: "Foundation Grants", amount: "$150K", percentage: 26, color: "#059669" },
+                { source: "State Grants", amount: "$90K", percentage: 16, color: "#d97706" },
+                { source: "Local Grants", amount: "$95K", percentage: 16, color: "#7c3aed" },
               ].map((item, index) => (
                 <div key={index}>
                   <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "6px" }}>
@@ -4341,6 +4531,9 @@ const FundingFrameApp = () => {
                       <option>Federal Grant Application</option>
                       <option>Foundation Grant</option>
                       <option>State Grant</option>
+                      <option>Local Government Grant</option>
+                      <option>Community Foundation Grant</option>
+                      <option>Municipal Grant</option>
                     </select>
                   </div>
                 </div>
@@ -5301,6 +5494,555 @@ const FundingFrameApp = () => {
     );
   };
 
+  const HelpView = () => {
+    const [selectedTemplate, setSelectedTemplate] = useState(null);
+
+    const templateLibrary = [
+      {
+        id: "statement-of-need",
+        title: "Statement of Need",
+        description: "A comprehensive guide to writing effective statements of need that demonstrate urgency and justify your funding request.",
+        category: "Grant Writing",
+        difficulty: "Intermediate",
+        timeToRead: "8 min",
+        content: `
+## What is a Statement of Need?
+
+A Statement of Need is a critical component of your grant proposal that explains why your project or program is necessary. It provides a clear, evidence-based argument that highlights the problem your organization aims to address and demonstrates the urgency of the issue.
+
+## Key Components to Include:
+
+### 1. Problem Definition
+- Clearly describe the issue your project seeks to solve
+- Identify who is affected by this problem
+- Use specific, measurable language
+
+### 2. Evidence and Data
+- Include relevant statistics and research findings
+- Cite credible sources and recent studies
+- Use both quantitative and qualitative data
+
+### 3. Community Impact
+- Explain how the problem affects your target community
+- Describe the consequences of not addressing the issue
+- Include testimonials or case studies when appropriate
+
+### 4. Organizational Connection
+- Show how your organization is uniquely positioned to address this need
+- Demonstrate your understanding of the community
+- Highlight your track record and expertise
+
+## Best Practices:
+
+- Start broad, then narrow down to your specific focus area
+- Use compelling adjectives that paint a picture (inadequate, outdated, underserved)
+- Include concrete examples of the impact of the unaddressed need
+- Keep it concise - typically 2-4 paragraphs
+- End with a clear connection to your proposed solution
+
+## Example Structure:
+
+**Paragraph 1:** Broad community context and scope of the problem
+**Paragraph 2:** Specific data and evidence supporting the need
+**Paragraph 3:** Consequences of inaction and gaps in current services
+**Paragraph 4:** Connection to your organization's mission and capacity
+
+## Common Mistakes to Avoid:
+
+- Being too vague or general
+- Focusing on your organization's needs instead of community needs
+- Using outdated statistics
+- Lacking credible citations
+- Making the need statement too long
+
+Remember: Your statement of need should create urgency and convince funders that immediate action is required.
+        `
+      },
+      {
+        id: "capability-statement",
+        title: "Organizational Capability Statement",
+        description: "Learn how to showcase your organization's strengths, experience, and capacity to successfully complete funded projects.",
+        category: "Grant Writing",
+        difficulty: "Beginner",
+        timeToRead: "6 min",
+        content: `
+## What is a Capability Statement?
+
+A Capability Statement is like a resume for your organization. It summarizes your organization's strengths, skill sets, and experience to set you apart from competitors and serves as a gateway to prospective funders.
+
+## Essential Elements:
+
+### 1. Organizational Overview
+- Mission statement and founding date
+- Geographic location and service area
+- Size and scope of operations
+- Legal status (501(c)(3), etc.)
+
+### 2. Core Competencies
+- Primary programs and services
+- Areas of expertise and specialization
+- Unique qualifications and certifications
+- Evidence-based practices you employ
+
+### 3. Track Record
+- Years of experience in relevant field
+- Number of clients served or projects completed
+- Success rates and outcomes achieved
+- Previous funding received and managed
+
+### 4. Infrastructure and Capacity
+- Physical facilities and equipment
+- Technology and data management systems
+- Financial management capabilities
+- Quality assurance processes
+
+### 5. Partnerships and Collaborations
+- Key community partnerships
+- Professional affiliations
+- Board composition and expertise
+- Advisory relationships
+
+## Writing Tips:
+
+- Use specific numbers and metrics whenever possible
+- Focus on achievements relevant to the funder's priorities
+- Include only recent and verifiable accomplishments
+- Balance confidence with humility
+- Keep it concise but comprehensive
+
+## What to Emphasize:
+
+- **Experience:** Years in operation and relevant project history
+- **Expertise:** Specialized knowledge and certified staff
+- **Efficiency:** Ability to manage resources effectively
+- **Results:** Documented outcomes and impact
+- **Reliability:** Clean audit history and compliance record
+
+Your capability statement should convince funders that your organization has the experience, expertise, and infrastructure necessary to successfully implement their funded project.
+        `
+      },
+      {
+        id: "organizational-structure",
+        title: "Organizational Structure Guide",
+        description: "Best practices for presenting your organization's governance, leadership, and management structure in grant proposals.",
+        category: "Organizational",
+        difficulty: "Intermediate",
+        timeToRead: "7 min",
+        content: `
+## Why Organizational Structure Matters
+
+Funders want to understand how your organization is governed and managed to assess your capacity for accountability, transparency, and effective program delivery.
+
+## Key Elements to Address:
+
+### 1. Governance Structure
+- Board of Directors composition and qualifications
+- Board meeting frequency and oversight responsibilities
+- Committee structures (Executive, Finance, Program, etc.)
+- Board member terms and rotation policies
+
+### 2. Leadership Team
+- Executive Director/CEO background and qualifications
+- Key program directors and their roles
+- Management hierarchy and reporting relationships
+- Span of control and decision-making processes
+
+### 3. Staffing Structure
+- Current full-time and part-time positions
+- Contractor and consultant relationships
+- Staff qualifications and certifications
+- Professional development and training programs
+
+### 4. Quality Assurance
+- Supervision and oversight mechanisms
+- Performance evaluation systems
+- Compliance monitoring processes
+- Risk management procedures
+
+## For Grant Proposals:
+
+### Include an Organizational Chart
+- Visual representation of reporting relationships
+- Clear lines of authority and responsibility
+- Project-specific positions if relevant
+- Contact information for key personnel
+
+### Describe Project Management
+- Who will oversee the funded project
+- How the project fits into existing structure
+- Supervision and support mechanisms
+- Communication and reporting protocols
+
+## Best Practices:
+
+- Show appropriate separation between governance and management
+- Demonstrate diversity in leadership when possible
+- Highlight relevant experience and qualifications
+- Include succession planning for key positions
+- Show evidence of strong financial oversight
+
+## Common Organizational Models:
+
+**Traditional Hierarchy:** Clear chain of command with CEO/ED at top
+**Flat Structure:** Fewer management layers, more collaborative
+**Matrix Organization:** Staff report to multiple supervisors
+**Program-Based:** Organized around specific programs or services
+
+Choose the model that best reflects your organization's actual structure and explain how it supports effective program delivery.
+        `
+      },
+      {
+        id: "citation-guide",
+        title: "APA Citation Guide for Grants",
+        description: "Master the art of proper citations in grant proposals using APA 7th edition format.",
+        category: "Academic Writing",
+        difficulty: "Beginner",
+        timeToRead: "5 min",
+        content: `
+## Why Citations Matter in Grant Proposals
+
+Proper citations demonstrate credibility, show you've done your research, and allow funders to verify your claims. They're essential for building trust and avoiding plagiarism.
+
+## APA 7th Edition Basics:
+
+### In-Text Citations
+- **Single author:** (Smith, 2023)
+- **Two authors:** (Smith & Jones, 2023)
+- **Three or more:** (Smith et al., 2023)
+- **Direct quote:** (Smith, 2023, p. 15)
+
+### Reference List Format
+**Journal Article:**
+Author, A. A. (Year). Title of article. *Title of Journal*, Volume(Issue), pages. https://doi.org/xxx
+
+**Book:**
+Author, A. A. (Year). *Title of book*. Publisher.
+
+**Website:**
+Author, A. A. (Year, Month Date). Title of webpage. *Website Name*. URL
+
+**Government Report:**
+Agency Name. (Year). *Title of report* (Report No. XXX). Publisher.
+
+## Grant-Specific Tips:
+
+### Use Current Sources
+- Prioritize sources from the last 3-5 years
+- Include the most recent data available
+- Note when using historical data for context
+
+### Choose Credible Sources
+- Peer-reviewed journals
+- Government agencies and reports
+- Established research institutions
+- Professional organizations
+
+### Balance Source Types
+- Academic research for evidence base
+- Government data for statistics
+- Professional guidelines for best practices
+- Local data for community context
+
+## Common Grant Citation Scenarios:
+
+### Citing Statistics
+*According to the CDC (2023), substance use disorders affect approximately 20.4 million Americans annually.*
+
+### Citing Best Practices
+*Evidence-based peer recovery programs show 40-60% better outcomes than traditional counseling alone (SAMHSA, 2022).*
+
+### Citing Local Data
+*The DC Department of Health (2023) reports that Ward 7 and Ward 8 have substance use rates 45% higher than the city average.*
+
+## Space-Saving Tips:
+
+When page limits are tight:
+- Use numbered references: [1], [2], etc.
+- Group multiple citations: (Smith, 2023; Jones, 2022; Brown, 2021)
+- Abbreviate organization names after first use
+
+## Citation Management:
+
+- Use tools like Zotero, Mendeley, or EndNote
+- Keep a master reference list for your organization
+- Verify all URLs work before submission
+- Include DOIs when available
+
+Remember: Consistent, accurate citations enhance your credibility and demonstrate your attention to detail.
+        `
+      },
+      {
+        id: "local-grants",
+        title: "Finding Local Grant Opportunities",
+        description: "Strategies and resources for identifying local government, community foundation, and municipal grant opportunities.",
+        category: "Funding Strategy",
+        difficulty: "Beginner",
+        timeToRead: "10 min",
+        content: `
+## Why Local Grants Matter
+
+Local grants often have less competition, faster turnaround times, and funders who understand your community's specific needs. They're an excellent complement to federal and foundation funding.
+
+## Types of Local Funding Sources:
+
+### 1. Municipal/City Government
+- Community development block grants
+- Health and human services funding
+- Arts and culture grants
+- Public safety initiatives
+
+### 2. County Government
+- Social services funding
+- Public health grants
+- Economic development programs
+- Environmental initiatives
+
+### 3. Community Foundations
+- Donor-advised funds
+- Field-of-interest funds
+- Geographic-specific grants
+- Emergency response funding
+
+### 4. Local Businesses
+- Corporate social responsibility programs
+- Employee volunteer grants
+- Sponsorship opportunities
+- In-kind donations
+
+## Finding Local Opportunities:
+
+### Online Resources
+- **Foundation Center/Candid:** Use geographic filters
+- **Grants.gov:** Filter by state and local agencies
+- **GrantWatch:** Local and regional opportunities
+- **State grant portals:** Many states have central databases
+
+### Community Resources
+- **United Way:** Often manages multiple local funds
+- **Chamber of Commerce:** Business grant information
+- **Nonprofit associations:** Peer networking and sharing
+- **Libraries:** Often have grant research resources
+
+### Direct Outreach
+- Attend city council and county commission meetings
+- Subscribe to government newsletters
+- Follow local officials on social media
+- Join community planning committees
+
+## Local Grant Advantages:
+
+### Relationship Building
+- Face-to-face meetings with funders
+- Site visits and community presence
+- Ongoing partnership opportunities
+- Local board connections
+
+### Community Understanding
+- Funders know local challenges
+- Shared priorities and values
+- Cultural competency
+- Geographic accessibility
+
+### Faster Processes
+- Shorter application cycles
+- Quicker decision timelines
+- Less bureaucratic processes
+- Direct communication channels
+
+## Application Strategies:
+
+### Emphasize Local Impact
+- Use neighborhood-specific data
+- Include local testimonials
+- Highlight community partnerships
+- Show geographic service area
+
+### Demonstrate Community Support
+- Letters from local leaders
+- Community endorsements
+- Volunteer involvement
+- Local media coverage
+
+### Align with Local Priorities
+- Review city/county strategic plans
+- Attend public planning meetings
+- Study recent funding awards
+- Understand political priorities
+
+## Examples of Local Grant Types:
+
+**Community Development:**
+- Neighborhood revitalization
+- Affordable housing support
+- Small business development
+- Infrastructure improvements
+
+**Health and Human Services:**
+- Food security programs
+- Mental health services
+- Senior services
+- Youth development
+
+**Education and Workforce:**
+- After-school programs
+- Job training initiatives
+- Adult education
+- STEM programs
+
+## Building Local Funder Relationships:
+
+1. **Start Small:** Apply for smaller grants first
+2. **Report Back:** Share outcomes and impact
+3. **Stay Engaged:** Attend funder events and meetings
+4. **Collaborate:** Partner with other local nonprofits
+5. **Communicate:** Regular updates and newsletters
+
+## Red Flags to Avoid:
+
+- Applying without understanding local priorities
+- Ignoring application guidelines
+- Failing to show community support
+- Not following up after awards
+- Competing unnecessarily with partners
+
+Local grants require a different approach than federal funding - invest in relationship building and community engagement for the best results.
+        `
+      }
+    ];
+
+    const categories = ["All", "Grant Writing", "Organizational", "Academic Writing", "Funding Strategy"];
+    const [selectedCategory, setSelectedCategory] = useState("All");
+
+    const filteredTemplates = selectedCategory === "All"
+      ? templateLibrary
+      : templateLibrary.filter(template => template.category === selectedCategory);
+
+    return (
+      <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+          <h2 style={{ fontSize: "28px", fontWeight: "bold", color: "#111827", margin: 0 }}>
+            Help & Template Library
+          </h2>
+          <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
+            <select
+              value={selectedCategory}
+              onChange={(e) => setSelectedCategory(e.target.value)}
+              style={{
+                padding: "8px 12px",
+                border: "1px solid #d1d5db",
+                borderRadius: "8px",
+                fontSize: "14px",
+                backgroundColor: "white"
+              }}
+            >
+              {categories.map(category => (
+                <option key={category} value={category}>{category}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        {!selectedTemplate ? (
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", gap: "20px" }}>
+            {filteredTemplates.map(template => (
+              <div
+                key={template.id}
+                onClick={() => setSelectedTemplate(template)}
+                style={{
+                  ...styles.card,
+                  cursor: "pointer",
+                  transition: "all 0.2s ease",
+                  ':hover': { transform: "translateY(-2px)", boxShadow: "0 4px 12px rgba(0,0,0,0.15)" }
+                }}
+              >
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "start", marginBottom: "12px" }}>
+                  <div style={{
+                    backgroundColor: template.category === "Grant Writing" ? "#dbeafe" :
+                                   template.category === "Organizational" ? "#dcfce7" :
+                                   template.category === "Academic Writing" ? "#fef3c7" : "#f3e8ff",
+                    color: template.category === "Grant Writing" ? "#1e40af" :
+                           template.category === "Organizational" ? "#166534" :
+                           template.category === "Academic Writing" ? "#92400e" : "#6b21a8",
+                    padding: "4px 8px",
+                    borderRadius: "4px",
+                    fontSize: "12px",
+                    fontWeight: "500"
+                  }}>
+                    {template.category}
+                  </div>
+                  <div style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    fontSize: "12px",
+                    color: "#6b7280"
+                  }}>
+                    <span>{template.difficulty}</span>
+                    <span>•</span>
+                    <span>{template.timeToRead}</span>
+                  </div>
+                </div>
+                <h3 style={{ fontSize: "18px", fontWeight: "600", color: "#111827", margin: "0 0 8px 0" }}>
+                  {template.title}
+                </h3>
+                <p style={{ fontSize: "14px", color: "#6b7280", lineHeight: "1.5", margin: 0 }}>
+                  {template.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div style={styles.card}>
+            <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "24px" }}>
+              <button
+                onClick={() => setSelectedTemplate(null)}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "6px",
+                  padding: "8px 12px",
+                  border: "1px solid #d1d5db",
+                  borderRadius: "6px",
+                  backgroundColor: "white",
+                  color: "#374151",
+                  cursor: "pointer",
+                  fontSize: "14px"
+                }}
+              >
+                ← Back to Library
+              </button>
+              <div style={{
+                backgroundColor: selectedTemplate.category === "Grant Writing" ? "#dbeafe" :
+                               selectedTemplate.category === "Organizational" ? "#dcfce7" :
+                               selectedTemplate.category === "Academic Writing" ? "#fef3c7" : "#f3e8ff",
+                color: selectedTemplate.category === "Grant Writing" ? "#1e40af" :
+                       selectedTemplate.category === "Organizational" ? "#166534" :
+                       selectedTemplate.category === "Academic Writing" ? "#92400e" : "#6b21a8",
+                padding: "4px 8px",
+                borderRadius: "4px",
+                fontSize: "12px",
+                fontWeight: "500"
+              }}>
+                {selectedTemplate.category}
+              </div>
+            </div>
+            <h1 style={{ fontSize: "32px", fontWeight: "bold", color: "#111827", margin: "0 0 16px 0" }}>
+              {selectedTemplate.title}
+            </h1>
+            <div style={{
+              fontSize: "16px",
+              lineHeight: "1.7",
+              color: "#374151",
+              whiteSpace: "pre-wrap"
+            }}>
+              {selectedTemplate.content}
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  };
+
   const SettingsView = () => {
     const [activeTab, setActiveTab] = useState("organization");
 
@@ -5844,6 +6586,8 @@ const FundingFrameApp = () => {
           return <DocumentsView />;
         case "reports":
           return <ReportsView />;
+        case "help":
+          return <HelpView />;
         case "settings":
           return <SettingsView />;
         case "new-opportunity":
@@ -5855,7 +6599,7 @@ const FundingFrameApp = () => {
         case "analysis-report":
           return <AnalysisReportView />;
         case "demo-workspace":
-          return <DemoWorkspaceView />;
+          return <WorkspaceView />;
         default:
           return <DashboardView />;
       }
