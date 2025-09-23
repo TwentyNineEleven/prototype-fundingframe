@@ -1,34 +1,50 @@
 {
-  "name": "fundingframe-prototype",
-  "version": "1.0.0",
-  "description": "A grant management platform prototype for nonprofit organizations",
-  "keywords": [
-    "grant",
-    "nonprofit",
-    "funding",
-    "management",
-    "react"
-  ],
-  "main": "src/index.js",
+  "name": "fundingframe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "firebase deploy"
+  },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.0",
-    "safe-regex-test": "^1.1.0"
+    "@google-cloud/documentai": "^8.10.0",
+    "@google-cloud/storage": "^7.13.0",
+    "@google-cloud/vertexai": "^1.8.0",
+    "@google-cloud/vision": "^4.3.2",
+    "@hookform/resolvers": "^3.9.0",
+    "@radix-ui/react-progress": "^1.1.7",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@tanstack/react-query": "^5.56.2",
+    "@tiptap/react": "^3.4.6",
+    "@tiptap/starter-kit": "^3.4.6",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.21",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "firebase": "^10.13.2",
+    "firebase-admin": "^12.4.0",
+    "firebase-functions": "^5.1.1",
+    "lucide-react": "^0.446.0",
+    "next": "15.5.0",
+    "postcss": "^8.4.47",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-dropzone": "^14.2.9",
+    "react-hook-form": "^7.62.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.9.2",
+    "zod": "^4.0.0"
   },
   "devDependencies": {
-    "loader-utils": "3.2.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "@types/react-dropzone": "^5.1.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.5.0"
+  }
 }
